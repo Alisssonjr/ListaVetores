@@ -1,0 +1,11 @@
+# Criando um vetor com as notas de 6 alunos da turma A
+notas_turma_A <- c(7.5, 8.0, 6.5, 9.0, 7.0, 8.5)
+
+# Criando um vetor com as notas de 3 alunos da turma B
+notas_turma_B <- c(6.0, 7.0, 8.0)
+
+# Somando as notas da turma A com as notas da turma B
+soma_notas <- notas_turma_A + notas_turma_B
+
+# Exibindo o resultado da soma das notas
+cat("Resultado da soma das notas:", soma_notas, "\n")

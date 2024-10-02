@@ -1,0 +1,11 @@
+#vetor com as notas dos alunos
+notas <- c(9.0, 7.5, 6.0, 4.5, 8.0, 5.5, 10.0)
+
+#Criando um vetor lógico para identificar alunos aprovados
+aprovados <- notas >= 7
+
+#Gerando o relatório
+relatorio <- paste("Aluno", 1:length(notas), ":", ifelse(aprovados, "Aprovado", "Reprovado"))
+
+# Imprimindo o relatório final
+cat(relatorio, "\n")

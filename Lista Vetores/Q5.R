@@ -1,0 +1,9 @@
+x <- c(50, 10, 5, 1, 2, 3, 11, 25, 30, 35, 40, 4, 42)
+
+# Descobrindo a ordem dos índices
+ordem_indices <- order(x)
+cat("Ordem dos índices:", ordem_indices, "\n")
+
+# Organizando o vetor em ordem crescente
+vetor_ordenado <- sort(x)
+cat("Vetor em ordem crescente:", vetor_ordenado, "\n")

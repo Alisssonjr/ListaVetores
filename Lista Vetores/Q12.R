@@ -1,0 +1,19 @@
+# Criando um vetor com as vendas diárias de 10 vendedores
+vendas <- c(25, 18, 30, 12, 22, 19, 15, 10, 27, 5)
+
+# Verificando quais vendedores atingiram a meta mínima de 20 vendas
+meta_atingida <- vendas >= 20
+
+# Calculando quantos vendedores atingiram a meta
+vendedores_meta <- sum(meta_atingida)
+
+# Substituindo qualquer valor de vendas inferior a 15 por 15
+vendas[vendas < 15] <- 15
+
+# Gerando o relatório de desempenho
+relatorio_desempenho <- paste("Vendedor", 1:length(vendas), ":", 
+                              ifelse(meta_atingida, "Atingiu a meta", "Não atingiu a meta"))
+
+# Imprimindo o número de vendedores que atingiram a meta e o relatório final
+cat("Número de vendedores que atingiram a meta:", vendedores_meta, "\n")
+cat(relatorio_desempenho, "\n")

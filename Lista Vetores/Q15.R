@@ -1,0 +1,15 @@
+
+# Criando um vetor com 5 nomes
+nomes <- c("Ana", "João", "Maria", "Carlos", "Fernanda")
+
+# Criando um vetor com 5 sobrenomes
+sobrenomes <- c("Silva", "Souza", "Oliveira", "Pereira", "Almeida")
+
+# Usando a função paste() para concatenar os nomes e sobrenomes
+nomes_usuarios <- paste(nomes, sobrenomes, sep = ".")
+
+# Adicionando um número sequencial ao final de cada nome de usuário
+nomes_usuarios_final <- paste(nomes_usuarios, 1:length(nomes_usuarios), sep = "")
+
+# Exibindo a lista final de nomes de usuários
+cat("Lista final de nomes de usuários:", nomes_usuarios_final, "\n")
