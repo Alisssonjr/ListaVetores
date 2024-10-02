@@ -1,0 +1,8 @@
+vetor1 <- c(2, 4, 6, 8)
+vetor2 <- c(1, 3)
+
+resultado <- vetor1 + vetor2
+
+cat("Vetor 1:", vetor1, "\n")
+cat("Vetor 2:", vetor2, "\n")
+cat("Resultado da soma:", resultado, "\n")
