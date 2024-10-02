@@ -1,0 +1,10 @@
+
+vetor_numeros <- c(16, 25)
+
+# Calculando raiz quadrada de cada elemento
+raiz_quadrada <- sqrt(vetor_numeros)
+cat("Raiz quadrada dos elementos:", raiz_quadrada, "\n")
+
+# Aplicando logaritmo aos resultados das raízes quadradas
+log_resultado <- log(raiz_quadrada)
+cat("Logaritmo dos resultados das raízes quadradas:", log_resultado, "\n")
