@@ -1,0 +1,14 @@
+# Criaro o vetor de compras com 5 itens
+lista_compras <- c("Arroz", "Feijão", "Macarrão", "Azeite", "Café")
+
+# Acessar e exibir o terceiro item da lista
+cat("O terceiro item da lista de compras é:", lista_compras[3], "\n")
+
+# Adicionar item no final da lista
+lista_compras <- c(lista_compras, "Leite")
+
+# Adicionar um item na posição 2
+lista_compras <- append(lista_compras, "Ovos", after = 1)
+
+# Exibir a lista de Compras
+print(lista_compras)
